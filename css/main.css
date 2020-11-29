@@ -74,7 +74,9 @@ body {
   border-radius: 20px;
   padding: 42px 30px 10px;
 }
-
+ .terms-title {
+    padding: 25px 0 10px;
+  }
 .Terms .content p {
   line-height: 1.8;
   margin: 20px 0;
