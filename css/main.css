@@ -52,11 +52,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .Terms .chevron {
@@ -76,12 +76,11 @@ body {
 }
 
 .Terms .terms-title {
-  padding: 25px 0;
+  padding: 25px 0 10px;
 }
 
 .Terms .content p {
-  line-height: 1.8;
-  margin: 0 20px 0;
+  line-height: 2;
   color: #6c7b8a;
   font-size: 12px;
 }
@@ -131,3 +130,4 @@ body {
 }
 
 /*  ----------- 02 -End Terms CSS   -----------*/
+/*# sourceMappingURL=main.css.map */
