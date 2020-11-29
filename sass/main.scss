@@ -1,0 +1,112 @@
+/* --------------------------
+:: Template Name: Eventsia : Page 10
+:: Description: Page 10
+:: Created: 29/11/2020  MM/DD/YYYY
+-------------------------- */
+
+/* ----------------------
+[Table of contents]
+01.Base CSS
+02.Terms CSS
+
+ --------------------------*/
+
+/*  ----------- 01- Start Base CSS  ----------- */
+
+:root {
+  --main-black-color: #222;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  color: inherit !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+li {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+main {
+}
+
+/*  ----------- 01 -End Base CSS   -----------*/
+/*  ----------- 02 -Start Terms CSS   -----------*/
+.Terms {
+  background: url("../files/image.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  .chevron {
+    width: 55px;
+    margin: -75px auto 0;
+  }
+  .content {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px 30px 10px;
+  }
+  .content p {
+    line-height: 1.8;
+
+    margin: 20px 0;
+    color: #6c7b8a;
+    font-size: 12px;
+  }
+  .terms_paras p::selection {
+    background-color: #4c5fef;
+    color: #fff;
+  }
+  .form-group {
+    position: relative;
+  }
+
+  .form .ok {
+    position: absolute;
+    right: 22px;
+    top: 23%;
+    z-index: 99;
+    width: 25px;
+  }
+  .form .ok img {
+    width: 95%;
+    max-width: 100%;
+  }
+  .form .btn-terms {
+    background-color: #1ed7a6;
+    color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 12px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+  }
+  .read_later {
+    margin-top: 15px;
+    font-size: 11px;
+  }
+}
+
+/*  ----------- 02 -End Terms CSS   -----------*/
